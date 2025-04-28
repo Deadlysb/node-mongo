@@ -1,0 +1,45 @@
+# Archivos de entorno - NO versionar credenciales!
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Dependencias de Node
+/node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Directorios de desarrollo y producción
+/dist
+/build
+/coverage
+
+# Archivos del IDE y editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de MongoDB
+/data/db
+*.mongodb
+
+# Archivos de debug
+debug.log
+
+# Archivos de testing
+/test-results/
+
+# Archivos temporales
+*.tmp
+*~
